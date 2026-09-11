@@ -1,0 +1,14 @@
+'''
+Enumerate - Enumera iteráveis (índices)
+'''
+
+lista = ['Maria', 'Helena', 'Luiz']
+lista.append('João')
+
+lista_enumerada = enumerate(lista)
+
+for item in lista_enumerada:
+    print(item)
+
+lista_enumerada = enumerate(lista)
+print(list(lista_enumerada))
